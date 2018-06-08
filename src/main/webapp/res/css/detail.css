@@ -1,0 +1,67 @@
+@charset "utf-8";
+.detail{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #000000;
+}
+.lujing{
+	height: 50px;
+	line-height: 50px;
+}
+.lujing a{
+	color: #000000;
+	}
+.xiandenglu{
+	height: 500px;
+	border: 1px solid #000000;
+}
+.zhengwen{
+	margin-bottom: 30px;
+}
+.zhengwen .tit{
+	font-size: 21px;
+	font-weight: bold;
+}
+.sjdd{
+	font-size: 18px;
+	margin-top: 14px;
+}
+.nrr{
+	margin-top: 14px;
+}
+.nrr-tit{
+	border-left: 2px solid #0099FF;
+	font-size: 16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-left: 10px;
+}
+.text{
+	display: block;
+	margin-top: 10px;
+	
+}
+.zbnri{
+	margin-top: 15px;
+}
+.zbnri span{
+	display: inline-block;
+   margin-top: 5px;
+}
+.zbnri p{
+	line-height: 25px;
+	text-indent: 20px;
+	margin-top: 5px;
+}
+.dlyindao{
+	padding: 10px 0;
+	font-size: 16px;
+	color: red;
+}
+.morebtn{
+	margin-top: 20px;
+	
+	
+}
+

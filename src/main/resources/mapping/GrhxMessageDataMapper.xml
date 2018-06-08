@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+
+<!-- 不使用namespace的话sql搜索定位会比较方便 -->
+<mapper namespace="com.acc.dao.GrhxMessageDataMapper">
+
+	<resultMap id="grhxMessageData" type="com.acc.model.GrhxMessageData">
+        <result property="id" column="ID"/>
+        <result property="title" column="TITLE"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="date" column="DATE"/>
+        <result property="province" column="PROVINCE"/>
+        <result property="provincename" column="PROVINCENAME"/>
+        <result property="messagetype" column="MESSAGETYPE"/>
+        <result property="messagename" column="MESSAGENAME"/>
+        <result property="content" column="CONTENT"/>
+        <result property="webtype" column="WEBTYPE"/>
+        <result property="createid" column="CREATE_ID"/>
+        <result property="operaterid" column="OPERATERID"/>
+        <result property="operatetime" column="OPERATETIME"/>
+        <result property="userRealName" column="USERREALNAME"/>
+        <result property="busType" column="BUSTYPE"/>
+	</resultMap>
+	
+	<!-- 用于select查询公用抽取的列 -->
+	<sql id="columns">
+	    <![CDATA[
+		ID,TITLE,CREATE_TIME,DATE,PROVINCE,MESSAGETYPE,WEBTYPE,CREATE_ID,OPERATERID,OPERATETIME
+	    ]]>
+	</sql>
+    
+    <select id="getById" resultMap="grhxMessageData">
+		select d.title,d.date,d.PROVINCE,p.PROVINCE_NAME provincename,d.messagetype,t.message_name messagename,c.content from GRHX_MESSAGEDATA d 
+		LEFT JOIN ACC_PROVINCE p ON d.PROVINCE=p.id 
+		LEFT JOIN GRHX_MESSAGE_TYPE t ON d.messagetype=t.id
+		LEFT JOIN GRHX_MESSAGEDATA_CONTENT c ON c.id=d.id
+		where d.ID = #{id} 
+	</select>
+	
+	<sql id="findWhere">
+		<!-- ognl访问静态方法的表达式 为@class@method(args),以下为调用rapid中的Ognl.isNotEmpty()方法,还有其它方法如isNotBlank()可以使用，具体请查看Ognl类 -->
+		<where>	      	
+			and ISDELETE = 0			
+	       <if test="title != '' and title != null">
+				and TITLE like CONCAT('%',#{title},'%')
+			</if>
+			<if test="ids != '' and ids != null">
+				and m.id in (${ids})
+			</if>
+<!-- 			<if test="content != '' and content != null"> -->
+<!-- 				and CONTENT like CONCAT('%',#{content},'%') -->
+<!-- 			</if> -->
+			<if test="province != '' and province != null and province != 0 and province != '0'">
+				and PROVINCE like CONCAT(#{province},'%')
+			</if>
+			<if test="messagetype != '' and messagetype != null and messagetype != 0 and messagetype != '0'">
+				and MESSAGETYPE = #{messagetype}
+			</if>
+			<if test="date != '' and date != null">
+				and DATE >= #{date}
+			</if>
+		</where>
+	</sql>
+	<sql id="findMapWhere">
+		<!-- ognl访问静态方法的表达式 为@class@method(args),以下为调用rapid中的Ognl.isNotEmpty()方法,还有其它方法如isNotBlank()可以使用，具体请查看Ognl类 -->
+		<where>	      				
+	       <if test="title != '' and title != null">
+				and TITLE = #{title}
+			</if>
+			<if test="province != '' and province != null and province != 0 and province != '0'">
+				and PROVINCE = #{province}
+			</if>
+			<if test="messagetype != '' and messagetype != null and messagetype != 0 and messagetype != '0'">
+				and MESSAGETYPE = #{messagetype}
+			</if>
+			<if test="date != '' and date != null">
+				and DATE = #{date}
+			</if>
+		</where>
+	</sql>
+		
+    <select id="pageCount" resultType="long">
+        SELECT count(*) from GRHX_MESSAGEDATA m
+		<include refid="findWhere"/>    
+    </select>
+    
+    <!--
+    	分页查询已经使用Dialect进行分页,也可以不使用Dialect直接编写分页
+    	因为分页查询将传 offset,pageSize,lastRows 三个参数,不同的数据库可以根于此三个参数属性应用不同的分页实现
+    -->
+    <select id="findPage" resultMap="grhxMessageData">
+    	SELECT m.id,m.TITLE,m.DATE,p.PROVINCE_NAME PROVINCENAME,t.MESSAGE_NAME MESSAGENAME,u.USER_REALNAME USERREALNAME
+	    from GRHX_MESSAGEDATA m
+		LEFT JOIN ACC_PROVINCE p ON m.PROVINCE=p.ID
+		LEFT JOIN GRHX_MESSAGE_TYPE t ON m.MESSAGETYPE=t.ID
+		LEFT JOIN USER_INFO u ON m.CREATE_ID=u.ID
+		<include refid="findWhere"/>
+		order by m.DATE desc
+		LIMIT #{skip},#{pageSize}
+    </select>
+
+	<select id="getAll" resultMap="grhxMessageData">
+    	SELECT <include refid="columns" />
+	    FROM GRHX_MESSAGEDATA 
+    </select>
+    
+    <select id="getFrontmoduleByMessagetype" resultMap="grhxMessageData">
+    	SELECT t.ID,t.TITLE,t.DATE,p.PROVINCE_NAME PROVINCE
+	    FROM GRHX_MESSAGEDATA_FRONT t
+	    LEFT JOIN ACC_PROVINCE p on t.PROVINCE=p.ID
+	    where t.FRONTMODULE = #{frontmodule}
+	    and t.MESSAGETYPE = #{messagetype}
+	    <if test="num != '' and num != null">
+			limit 0,#{num}
+		</if>
+    </select>
+    
+    <select id="getByFrontmodule" resultMap="grhxMessageData">
+    	SELECT t.ID,t.TITLE,t.DATE
+	    FROM GRHX_MESSAGEDATA_FRONT t
+	    where t.FRONTMODULE = #{frontmodule}
+	    <if test="num != '' and num != null">
+			limit 0,#{num}
+		</if>
+    </select>
+    
+    <select id="getByMap" resultMap="grhxMessageData">
+    	SELECT <include refid="columns" />
+	    FROM GRHX_MESSAGEDATA 
+	    <include refid="findMapWhere"/>
+    </select>
+    
+    <select id="getByContent" resultMap="grhxMessageData">
+    	SELECT group_concat(id) ids
+	    FROM GRHX_MESSAGEDATA_CONTENT 
+	    where CONTENT like CONCAT('%',#{content},'%')
+    </select>
+</mapper>
+

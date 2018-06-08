@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.acc.dao.ProprietorMapper">
+
+	<resultMap id="proprietor" type="com.acc.model.Proprietor">
+		<result property="id" column="ID" />
+		<result property="company" column="COMPANY" />
+		<result property="linkman" column="LINKMAN" />
+		<result property="tel" column="TEL" />
+		<result property="address" column="ADDRESS" />
+		<result property="type" column="TYPE" />
+		<result property="createrid" column="CREATERID" />
+		<result property="createtime" column="CREATETIME" />
+		<result property="operaterid" column="OPERATERID" />
+		<result property="operatetime" column="OPERATETIME" />
+	</resultMap>
+
+	<!-- 用于select查询公用抽取的列 -->
+	<sql id="columns">
+		<![CDATA[
+			ID,COMPANY,LINKMAN,TEL,ADDRESS,TYPE,CREATERID,CREATETIME,OPERATERID,OPERATETIME
+		]]>
+	</sql>
+
+	<sql id="pageWhere">
+		<!-- ognl访问静态方法的表达式 为@class@method(args),以下为调用rapid中的Ognl.isNotEmpty()方法,还有其它方法如isNotBlank()可以使用，具体请查看Ognl类 -->
+		<where>
+			<if test="id != 0 and id != '' and id != null">
+				AND ID = #{id}
+			</if>
+			<if test="company != '' and company != null">
+				AND company = #{company}
+			</if>
+			<if test="type != '' and type != null">
+				AND type = #{type}
+			</if>
+		</where>
+	</sql>
+
+	<select id="pageCount" resultType="long">
+        SELECT count(*) from GRHX_PROPRIETOR m
+		<include refid="pageWhere"/>    
+    </select>
+    
+    <select id="findPage" resultMap="proprietor">
+    	SELECT <include refid="columns" />
+	    from GRHX_PROPRIETOR m
+		<include refid="pageWhere"/>
+		LIMIT #{skip},#{pageSize}
+    </select>
+    
+	<select id="getProprietorByType" resultMap="proprietor">
+		SELECT t.ID,t.COMPANY
+	    FROM GRHX_PROPRIETOR t
+	    where t.TYPE = #{type}
+	    <if test="num != '' and num != null">
+			limit 0,#{num}
+		</if>
+	</select>
+	
+	<select id="getById" resultMap="proprietor">
+		SELECT <include refid="columns" />
+	    FROM GRHX_PROPRIETOR t
+	    where t.id = #{id}
+	</select>
+</mapper>

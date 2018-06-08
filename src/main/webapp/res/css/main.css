@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+	font: inherit;
+	-webkit-font-smoothing:antialiased;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{border:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+select,input{vertical-align:middle}
+a{text-decoration:none;color: #3d3d3d;font-size: 12px;}
+img,input,label{vertical-align:middle;}
+input,select{outline:none}
+
+
+
+.clear { display:block !important; clear:both !important; float:none !important; margin:0 !important; padding:0 !important; height:0; line-height:0; font-size:0; overflow:hidden;}
+
+html,body{height: 100%;color: #787878;}
+.clear { 
+	clear: both;
+}
+body {
+    font-family: "宋体", "Microsoft Yahei","Tahoma","SimSun";
+    font-size: 14px;
+    _background-image: url(about:blank);
+    _background-attachment: fixed;
+}
+
+body, span, p, ul, table, tr, td, li, h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+    color: #3d3d3d;
+}
+.header .h-banner{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.header .hleft{
+	float: left;
+	width: 400px;
+}
+.header .hright{
+	float: right;
+	width: auto;
+	height:30px;
+}
+.header .zcbtn{
+	display: inline-block;
+	padding: 0 15px;
+	border: 1px solid #CECECE;
+	background-color: #ffffff;
+	height: 18px;
+	line-height: 18px;
+}
+.header .dlbtn{
+	display: inline-block;
+	padding: 0 15px;
+	border: 1px solid #CECECE;
+	background-color: #ffffff;
+	height: 18px;
+	line-height: 18px;
+}
+.header .hright a{
+	display: inline-block;
+	padding: 0 10px;
+}
+.header .h-bg{
+	width: 100%;
+	height: auto;
+	background-color: #3d83cc;
+}
+.header .h-con{
+	width: 1000px;
+	margin: 0 auto;
+	height: 120px;
+	
+}
+.header .logo{
+	float: left;
+	width: 250px;
+	height: 80px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	padding:20px;
+}
+.header .search{
+	float: left;
+	margin-top: 30px;
+	margin-left:50px;
+}
+
+.header .div_sear input{
+	width: 450px;
+    text-indent: 15px;
+    height: 40px;
+    font-size: 14px;
+}
+.header .div_sear a{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 120px;
+	height: 40px;
+	background-color: red;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.header .ssgjz a{
+	display: inline-block;
+	padding: 0 5px;
+	color: #FFFFFF;
+}
+.header .ssgjz .span_tel{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	color: yellow;
+	font-size: 12px;
+}
+.header .ssgjz .span_tel i{
+	color: #ffffff;
+}
+.header .h-img{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: darkmagenta;
+	margin-top: 5px;
+}
+
+/* CSS other */
+.other{
+	width: 1000px;
+	margin: 0 auto;
+}
+.other .lan {
+    border: 1px solid #e7e7e7;
+    width: 972px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 13px;
+}
+
+.other .map_list {
+    line-height: 26px;
+    margin-top: 10px;
+    color: #787878;
+}
+
+.other .map_list ul li {
+    display: block;
+    float: left;
+}
+
+.other .map_list ul li a {
+    padding: 0px 3px;
+    color: #787878;
+}
+
+.other .map_list2, .map_list3 {
+    padding: 10px 0px;
+}
+
+.other .map_list2 a {
+    height: 26px;
+    line-height: 26px;
+    width: 100px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding-right: 10px;
+}
+
+.other .map_list3 {
+    height: 45px;
+}
+
+.other .map_list3 a {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.other .huadong {
+    width: 300px;
+}
+.other .huadong b{
+    font-weight: bold;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+.other .huadong2 {
+    width: 220px;
+}
+.other .huadong2 b{
+    font-weight: bold;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+.other .more {
+    float: right;
+    color: #898989;
+}
+
+.other .more a {
+    color: #898989;
+}
+.other .x_hua {
+    font-size: 14px;
+    color: #3d3d3d;
+    font-size: 16px;
+}
+
+.other .x_hua a {
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.other .x_hua, .prefer .x_hua {
+    float: left;
+    display: block;
+    border-bottom: 2px solid #444444;
+    height: 34px;
+}
+.other .er_title, .prefer .er_title {
+    line-height: 35px;
+    border-bottom: 1px solid #e7e7e7;
+}
+/* tabbtn */
+.other .tabbtn {
+    height: 35px;
+    border-bottom: solid 1px #e7e7e7;
+}
+
+.other .tabbtn li {
+    float: left;
+    position: relative;
+    margin: 0 0 0 -1px;
+}
+
+.other .tabbtn li a {
+    display: block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    color: #3d3d3d;
+}
+
+.other .tabbtn li.current {
+    border-left: solid 1px #d5d5d5;
+    border-right: solid 1px #d5d5d5;
+}
+
+.other .tabbtn li.current a {
+    border-top: solid 2px #444444;
+    height: 34px;
+    line-height: 34px;
+    background: #fff;
+    color: #444444;
+    font-weight: 800;
+}
+            
+.other .no_left a {
+    border-top: 2px solid #444444;
+    display: block;
+    width: 55px;
+    background-color: #ffffff;
+    height: 34px;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.other .no_right a {
+    padding: 0px 10px;
+}
+/* tabcon */
+.other .tabcon {
+    position: relative;
+    overflow: hidden;
+    color: #3d3d3d;
+}
+.other .tabcon a{
+	color: #3d3d3d;
+}
+
+.other .tabcon .subbox {
+    left: 0;
+    top: 0;
+    width: 968px;
+    margin-top: 10px;
+}
+
+.other .tabcon .sublist {
+    padding: 5px 10px;
+    display: block;
+}
+/* leftcon */
+.other #leftcon .subbox {
+    width: 9999em;
+}
+
+.other #leftcon .subbox .sublist {
+    float: left;
+    width: 664px;
+}
+
+/* sublist */
+.other .sublist {
+    padding: 10px;
+}
+
+.other .sublist a {
+    line-height: 22px;
+    padding-right: 10px;
+}
+
+/* CSS 底部导航 */
+.footer {
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 20px 0px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer .submenu {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 10px;
+    font-size: 15px;
+    height: 27px;
+	border-bottom: none;
+}
+
+.footer .submenu ul li {
+    display: block;
+    float: left;
+    line-height: 26px;
+    border-right: 1px solid #e7e7e7;
+    padding-right: 30px;
+    padding-left: 35px;
+    height: 27px;
+	text-align: center;
+}
+
+.footer .copyright {
+    color: #666666;
+    line-height: 26px;
+    margin-top: 10px;
+    padding: 0px 30px;
+}
