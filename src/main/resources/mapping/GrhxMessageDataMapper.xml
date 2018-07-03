@@ -96,7 +96,7 @@ PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
 	    from GRHX_MESSAGEDATA m
 		LEFT JOIN ACC_PROVINCE p ON m.PROVINCE=p.ID
 		LEFT JOIN GRHX_MESSAGE_TYPE t ON m.MESSAGETYPE=t.ID
-		LEFT JOIN USER_INFO u ON m.CREATE_ID=u.ID
+		LEFT JOIN GRHX_USER_INFO u ON m.CREATE_ID=u.ID
 		<include refid="findWhere"/>
 		order by m.DATE desc
 		LIMIT #{skip},#{pageSize}
