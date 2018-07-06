@@ -156,7 +156,7 @@
 	<table width="100%" cellpadding="0" cellspacing="0" class="table-bordered" style="border: 2px solid #307DB4;">
 		<tr style="height:30px;background-color: #CCE4F7;">
 			<td width="76%" align="left" style="padding-left:60px; font-size: 17px;font-weight: bold;border: 1px solid #CCE4F7;">
-				标题${contentQuery }
+				标题
 			</td>
 			<td width="8%" align="center" style="font-size: 17px;font-weight: bold;border: 1px solid #CCE4F7;">
 				地区
