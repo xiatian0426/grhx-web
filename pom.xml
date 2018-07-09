@@ -9,8 +9,8 @@
 	<description />
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      		<acc.root.local>116.62.146.75</acc.root.local>
-       		<!--<acc.root.local>localhost</acc.root.local>       -->
+      		<!--<acc.root.local>116.62.146.75</acc.root.local>-->
+       		<acc.root.local>localhost</acc.root.local>
 <!--    		<acc.root.local>www.bidwin.cn</acc.root.local>    -->
 		<acc.web.port>80</acc.web.port>
 	</properties>

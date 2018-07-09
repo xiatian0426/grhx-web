@@ -902,7 +902,7 @@ style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
   </td>
  </tr>
  <tr style='mso-yfti-irow:12;height:18.0pt'>
-  <td width=72 rowspan=3 style='width:54.0pt;border:solid windowtext 1.0pt;
+  <td width=72 rowspan=2 style='width:54.0pt;border:solid windowtext 1.0pt;
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:.75pt .75pt .75pt .75pt;height:18.0pt'>
   <p class=MsoNormal align=center style='text-align:center;mso-pagination:widow-orphan;
@@ -971,76 +971,6 @@ style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
   </td>
   <![if !supportMisalignedRows]>
   <td style='height:18.0pt;border:none' width=0 height=24></td>
-  <![endif]>
- </tr>
- <tr style='mso-yfti-irow:13;height:15.25pt'>
-  <td width=154 style='width:115.4pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:.75pt .75pt .75pt .75pt;
-  height:15.25pt'>
-  <p class=MsoNormal align=center style='text-align:center;mso-pagination:widow-orphan;
-  vertical-align:middle'><span style='mso-bidi-font-size:10.5pt;font-family:
-  黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:黑体;color:black;mso-font-kerning:
-  0pt;mso-bidi-language:AR'>代购标书（北京）<span lang=EN-US><o:p></o:p></span></span></p>
-  </td>
-  <td width=94 style='width:70.5pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
-  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;padding:.75pt .75pt .75pt .75pt;height:15.25pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-bidi-font-size:10.5pt;font-family:黑体;mso-hansi-font-family:宋体;
-  mso-bidi-font-family:黑体;color:black;mso-font-kerning:0pt;mso-bidi-language:
-  AR'>不限次<span lang=EN-US><o:p></o:p></span></span></p>
-  </td>
-  <td width=97 style='width:72.75pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:.75pt .75pt .75pt .75pt;
-  height:15.25pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='mso-bidi-font-size:10.5pt;font-family:黑体;mso-hansi-font-family:宋体;
-  mso-bidi-font-family:黑体;color:black;mso-font-kerning:0pt;mso-bidi-language:
-  AR'>20</span><span style='mso-bidi-font-size:10.5pt;font-family:黑体;
-  mso-hansi-font-family:宋体;mso-bidi-font-family:黑体;color:black;mso-font-kerning:
-  0pt;mso-bidi-language:AR'>次</span><span lang=EN-US style='font-size:12.0pt;
-  font-family:宋体;mso-bidi-font-family:宋体;color:black'><o:p></o:p></span></p>
-  </td>
-  <td width=95 style='width:71.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:.75pt .75pt .75pt .75pt;
-  height:15.25pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='mso-bidi-font-size:10.5pt;font-family:黑体;mso-hansi-font-family:宋体;
-  mso-bidi-font-family:黑体;color:black;mso-font-kerning:0pt;mso-bidi-language:
-  AR'>10</span><span style='mso-bidi-font-size:10.5pt;font-family:黑体;
-  mso-hansi-font-family:宋体;mso-bidi-font-family:黑体;color:black;mso-font-kerning:
-  0pt;mso-bidi-language:AR'>次<span lang=EN-US><o:p></o:p></span></span></p>
-  </td>
-  <td width=95 style='width:71.25pt;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:.75pt .75pt .75pt .75pt;
-  height:15.25pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='mso-bidi-font-size:10.5pt;font-family:黑体;mso-hansi-font-family:宋体;
-  mso-bidi-font-family:黑体;color:black;mso-font-kerning:0pt;mso-bidi-language:
-  AR'>5</span><span style='mso-bidi-font-size:10.5pt;font-family:黑体;mso-hansi-font-family:
-  宋体;mso-bidi-font-family:黑体;color:black;mso-font-kerning:0pt;mso-bidi-language:
-  AR'>次</span><span lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:
-  黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:黑体;color:black'><o:p></o:p></span></p>
-  </td>
-  <td width=92 style='width:69.0pt;border-top:none;border-left:none;border-bottom:
-  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
-  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;padding:.75pt .75pt .75pt .75pt;height:15.25pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-  style='mso-bidi-font-size:10.5pt;font-family:黑体;mso-hansi-font-family:宋体;
-  mso-bidi-font-family:黑体;color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <![if !supportMisalignedRows]>
-  <td style='height:15.25pt;border:none' width=0 height=20></td>
   <![endif]>
  </tr>
  <tr style='mso-yfti-irow:14;height:15.0pt'>
