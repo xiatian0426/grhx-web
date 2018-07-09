@@ -99,7 +99,7 @@
 		
 					<dd class="rigdd">
 						<div class="lab1"></div>
-						<input type="checkbox" name="checkbox" value="checkbox" checked="true" id="agree" class="inRadio_blue">同意《<a href="#">中国招标网用户服务协议</a>》
+						<input type="checkbox" name="checkbox" value="checkbox" checked="true" id="agree" class="inRadio_blue">同意《<a href="#">中项招标网用户服务协议</a>》
 					</dd>
 		
 					<dd class="rigdd">
