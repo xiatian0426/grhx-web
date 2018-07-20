@@ -76,7 +76,7 @@
 	<div class="h-banner">
 	    <div class="hleft">
 	    	<% if(flag){%>
-	    		您好！<a class="zcbtn1" target="_blank" href="#" style="color: red;font-size: 16px;line-height:18px;"><%=userid%></a>，欢迎来到国睿招标
+	    		您好！<a class="zcbtn1" target="_blank" href="#" style="color: red;font-size: 16px;line-height:18px;"><%=userid%></a>，欢迎来到中项招标
 	    		<a class="dlbtn" href="/account/logout">注销</a>
 	    	<%}else{%>
 	    		<a class="zcbtn" href="/account/goRegister">注册</a>
@@ -132,7 +132,7 @@
     </div>
 </div>
 <div class="top-nav clearfix">
-    	<a href="/index/index"><div class="nav-left">国睿招标</div></a>
+    	<a href="/index/index"><div class="nav-left">中项招标</div></a>
     	<div class="nav-right">
     		<a href="/index/index">平台首页</a>
     		<a href="/messageData/goSearch?messagetype=1">招标公告</a>

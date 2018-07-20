@@ -572,14 +572,14 @@
 				             <a href="http://www.cida.org.cn/" target="_blank">中国室内装饰协会</a>
 				             <a href="http://www.ndrc.gov.cn/" target="_blank">国家发展改革委员会</a>
 				             <a href="http://www.dv37.com/" target="_blank">加盟网</a>
-				             <a href="www.bidwin.cn" target="_blank">国睿招标网</a>
+				             <a href="http://www.zhongxiangzhaobiao.com" target="_blank">中项招标网</a>
 				             <br/>
 				             <a href="http://www.caec.org.cn/" target="_blank">中国展览馆协会</a>
-				             <a href="www.bidwin.cn" target="_blank">项目网</a>
+				             <a href="http://www.zhongxiangzhaobiao.com" target="_blank">项目网</a>
 				             <a href="http://www.ctba.org.cn/" target="_blank">中国招标投标协会</a>
 				             <a href="http://www.acla.org.cn/home/toPage" target="_blank">中国律师网</a>
 				             <a href="http://china-jt.com/" target="_blank">高速招标网</a>
-				             <a href="www.bidwin.cn" target="_blank">招标网</a>
+				             <a href="http://www.zhongxiangzhaobiao.com" target="_blank">招标网</a>
 				             <a href="https://bj.lianjia.com/" target="_blank">北京房产网</a>
 				             <a href="http://www.114chn.com/" target="_blank">114黄页</a>
 				             <a href="http://jobs.zhaopin.com/" target="_blank">人才网</a>
