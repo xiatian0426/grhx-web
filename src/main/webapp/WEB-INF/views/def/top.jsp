@@ -84,7 +84,7 @@
 	    	<%}%>
 	    </div>	
 	    <div class="hright">
-	    	服务热线：010-62870819&nbsp;&nbsp;&nbsp;
+	    	服务热线：028-81711663&nbsp;&nbsp;&nbsp;
 	    	<a href="/index/serviceList" target="_blank">服务列表</a>
 	    	<a href="/index/payGuidance" target="_blank">付费指导</a>
 	    	<a href="#" target="_blank">帮助中心</a>
