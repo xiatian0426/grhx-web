@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>中国招投标项目网</title>
+	<title>中项招投网</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">
@@ -237,21 +237,21 @@
                     <ul id="accoradion02" class="accoradion" style="width: 223px;" hovering="false">
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>服务
+                                <em class="">&nbsp;</em>环保
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
                                     <div class="tubiaoHH">
                                         <div class="fl_liet">
                                             <span class="dddd">
-                                                <a href="/messageData/goSearch?title=物业" target="_blank" title="">物业</a>
-                                                <a href="/messageData/goSearch?title=保洁" target="_blank" title="" class="duoyu">保洁</a>
-                                                <a href="/messageData/goSearch?title=保安" target="_blank" title="">保安</a>
-                                                <a href="/messageData/goSearch?title=清洗" target="_blank" title="" class="duoyu">清洗</a>
-                                                <a href="/messageData/goSearch?title=评估" target="_blank" title="">评估</a>
-                                                <a href="/messageData/goSearch?title=审计" target="_blank" title="" class="duoyu">审计</a>
-                                                <a href="/messageData/goSearch?title=律师" target="_blank" title="">律师</a>
-                                                <a href="/messageData/goSearch?title=设计" target="_blank" title="" class="duoyu">设计</a>
+                                                <a href="/messageData/goSearch?title=絮凝剂" target="_blank" title="">絮凝剂</a>
+                                                <a href="/messageData/goSearch?title=絮凝剂" target="_blank" title="" class="duoyu">絮凝剂</a>
+                                                <a href="/messageData/goSearch?title=PAC" target="_blank" title="">PAC</a>
+                                                <a href="/messageData/goSearch?title=聚合氯化铝" target="_blank" title="" class="duoyu">聚合氯化铝</a>
+                                                <a href="/messageData/goSearch?title=PAM" target="_blank" title="">PAM</a>
+                                                <a href="/messageData/goSearch?title=聚丙烯酰胺" target="_blank" title="" class="duoyu">聚丙烯酰胺</a>
+                                                <a href="/messageData/goSearch?title=药剂" target="_blank" title="">药剂</a>
+                                                <a href="/messageData/goSearch?title=污水处理" target="_blank" title="" class="duoyu">污水处理</a>
 <!--                                                 <a href="/messageData/goSearch?title=餐饮" target="_blank" title="">餐饮</a> -->
 <!--                                                 <a href="/messageData/goSearch?title=汽车租赁" target="_blank" title="" class="duoyu">汽车租赁</a> -->
 <!--                                                 <a href="/messageData/goSearch?title=汽车维修" target="_blank" title="">汽车维修</a> -->
@@ -265,21 +265,21 @@
                         </li>
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>工程
+                                <em class="">&nbsp;</em>体检
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
                                     <div class="tubiaoHH">
                                         <div class="fl_liet">
                                             <span class="dddd">
-                                                <a href="/messageData/goSearch?title=建筑" target="_blank" title="">建筑</a>
-                                                <a href="/messageData/goSearch?title=装饰" target="_blank" title="" class="duoyu">装饰</a>
-                                                <a href="/messageData/goSearch?title=园林" target="_blank" title="">园林</a>
-                                                <a href="/messageData/goSearch?title=绿化" target="_blank" title="" class="duoyu">绿化</a>
-                                                <a href="/messageData/goSearch?title=环保" target="_blank" title="">环保</a>
-                                                <a href="/messageData/goSearch?title=食堂承包" target="_blank" title="" class="duoyu">食堂承包</a>
-                                                <a href="/messageData/goSearch?title=钢结构" target="_blank" title="">钢结构</a>
-                                                <a href="/messageData/goSearch?title=市政" target="_blank" title="" class="duoyu">市政</a>
+                                                <a href="/messageData/goSearch?title=体检软件" target="_blank" title="">体检软件</a>
+                                                <a href="/messageData/goSearch?title=体检系统" target="_blank" title="" class="duoyu">体检系统</a>
+                                                <a href="/messageData/goSearch?title=体检管理" target="_blank" title="">体检管理</a>
+                                                <a href="/messageData/goSearch?title=体检信息化" target="_blank" title="" class="duoyu">体检信息化</a>
+                                                <a href="/messageData/goSearch?title=HIS" target="_blank" title="">HIS</a>
+                                                <a href="/messageData/goSearch?title=体检管理平台" target="_blank" title="" class="duoyu">体检管理平台</a>
+                                                <a href="/messageData/goSearch?title=LIS" target="_blank" title="">LIS</a>
+                                                <a href="/messageData/goSearch?title=健康管理系统" target="_blank" title="" class="duoyu">健康管理系统</a>
 <!--                                                 <a href="/messageData/goSearch?title=安防" target="_blank" title="">安防</a> -->
 <!--                                                 <a href="/messageData/goSearch?title=弱电" target="_blank" title="" class="duoyu">弱电</a> -->
                                                 <div class="clear"> </div>
@@ -291,21 +291,21 @@
                         </li>
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>设备
+                                <em class="">&nbsp;</em>法律
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
                                     <div class="tubiaoHH">
                                         <div class="fl_liet">
                                             <span class="dddd">
-                                                <a href="/messageData/goSearch?title=电梯" target="_blank" title="">电梯</a>
-                                                <a href="/messageData/goSearch?title=厨房设备" target="_blank" title="" class="duoyu">厨房设备</a>
-                                                <a href="/messageData/goSearch?title=分析仪" target="_blank" title="">分析仪</a>
-                                                <a href="/messageData/goSearch?title=无人机" target="_blank" title="" class="duoyu">无人机</a>
-                                                <a href="/messageData/goSearch?title=阀门" target="_blank" title="">阀门</a>
-                                                <a href="/messageData/goSearch?title=泵" target="_blank" title="" class="duoyu">泵</a>
-                                                <a href="/messageData/goSearch?title=医疗器械" target="_blank" title="">医疗器械</a>
-                                                <a href="/messageData/goSearch?title=机器人" target="_blank" title="" class="duoyu">机器人</a>
+                                                <a href="/messageData/goSearch?title=法律" target="_blank" title="">法律</a>
+                                                <a href="/messageData/goSearch?title=法律顾问" target="_blank" title="" class="duoyu">法律顾问</a>
+                                                <a href="/messageData/goSearch?title=律师" target="_blank" title="">律师</a>
+                                                <a href="/messageData/goSearch?title=法务顾问" target="_blank" title="" class="duoyu">法务顾问</a>
+                                                <a href="/messageData/goSearch?title=律所" target="_blank" title="">律所</a>
+                                                <a href="/messageData/goSearch?title=法务服务" target="_blank" title="" class="duoyu">法务服务</a>
+                                                <a href="/messageData/goSearch?title=诉讼" target="_blank" title="">诉讼</a>
+                                                <a href="/messageData/goSearch?title=纠纷" target="_blank" title="" class="duoyu">纠纷</a>
                                                 <div class="clear"> </div>
                                             </span>
                                         </div>
@@ -315,7 +315,7 @@
                         </li>
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>产品
+                                <em class="">&nbsp;</em>综合
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
@@ -324,12 +324,12 @@
                                             <span class="dddd">
                                                 <a href="/messageData/goSearch?title=标识" target="_blank" title="">标识</a>
                                                 <a href="/messageData/goSearch?title=标牌" target="_blank" title="" class="duoyu">标牌</a>
-                                                <a href="/messageData/goSearch?title=家具" target="_blank" title="">家具</a>
-                                                <a href="/messageData/goSearch?title=药剂" target="_blank" title="" class="duoyu">药剂</a>
-                                                <a href="/messageData/goSearch?title=健身器材" target="_blank" title="">健身器材</a>
-                                                <a href="/messageData/goSearch?title=耗材" target="_blank" title="" class="duoyu">耗材</a>
+                                                <a href="/messageData/goSearch?title=服装" target="_blank" title="">服装</a>
+                                                <a href="/messageData/goSearch?title=家具" target="_blank" title="" class="duoyu">家具</a>
                                                 <a href="/messageData/goSearch?title=物资" target="_blank" title="">物资</a>
                                                 <a href="/messageData/goSearch?title=劳保" target="_blank" title="" class="duoyu">劳保</a>
+                                                <a href="/messageData/goSearch?title=审计" target="_blank" title="">审计</a>
+                                                <a href="/messageData/goSearch?title=装饰" target="_blank" title="" class="duoyu">装饰</a>
 <!--                                                 <a href="/messageData/goSearch?title=服装" target="_blank" title="">服装</a> -->
 <!--                                                 <a href="/messageData/goSearch?title=门窗" target="_blank" title="" class="duoyu">门窗</a> -->
                                                 <div class="clear"> </div>
