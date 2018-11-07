@@ -237,7 +237,31 @@
                     <ul id="accoradion02" class="accoradion" style="width: 223px;" hovering="false">
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>环保
+                                <em class="">&nbsp;</em>法律项目服务中心
+                            </a>
+                            <ul style="display: block; height: 100px;">
+                                <li style="display: block;">
+                                    <div class="tubiaoHH">
+                                        <div class="fl_liet">
+                                            <span class="dddd">
+                                                <a href="/messageData/goSearch?title=法律" target="_blank" title="">法律</a>
+                                                <a href="/messageData/goSearch?title=法律顾问" target="_blank" title="" class="duoyu">法律顾问</a>
+                                                <a href="/messageData/goSearch?title=律师" target="_blank" title="">律师</a>
+                                                <a href="/messageData/goSearch?title=法务顾问" target="_blank" title="" class="duoyu">法务顾问</a>
+                                                <a href="/messageData/goSearch?title=律所" target="_blank" title="">律所</a>
+                                                <a href="/messageData/goSearch?title=法务服务" target="_blank" title="" class="duoyu">法务服务</a>
+                                                <a href="/messageData/goSearch?title=诉讼" target="_blank" title="">诉讼</a>
+                                                <a href="/messageData/goSearch?title=纠纷" target="_blank" title="" class="duoyu">纠纷</a>
+                                                <div class="clear"> </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
+                                <em class="">&nbsp;</em>环保项目服务中心
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
@@ -265,7 +289,7 @@
                         </li>
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>体检
+                                <em class="">&nbsp;</em>医疗项目服务中心
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
@@ -282,30 +306,6 @@
                                                 <a href="/messageData/goSearch?title=健康管理系统" target="_blank" title="" class="duoyu">健康管理系统</a>
 <!--                                                 <a href="/messageData/goSearch?title=安防" target="_blank" title="">安防</a> -->
 <!--                                                 <a href="/messageData/goSearch?title=弱电" target="_blank" title="" class="duoyu">弱电</a> -->
-                                                <div class="clear"> </div>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="active">
-                            <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>法律
-                            </a>
-                            <ul style="display: block; height: 100px;">
-                                <li style="display: block;">
-                                    <div class="tubiaoHH">
-                                        <div class="fl_liet">
-                                            <span class="dddd">
-                                                <a href="/messageData/goSearch?title=法律" target="_blank" title="">法律</a>
-                                                <a href="/messageData/goSearch?title=法律顾问" target="_blank" title="" class="duoyu">法律顾问</a>
-                                                <a href="/messageData/goSearch?title=律师" target="_blank" title="">律师</a>
-                                                <a href="/messageData/goSearch?title=法务顾问" target="_blank" title="" class="duoyu">法务顾问</a>
-                                                <a href="/messageData/goSearch?title=律所" target="_blank" title="">律所</a>
-                                                <a href="/messageData/goSearch?title=法务服务" target="_blank" title="" class="duoyu">法务服务</a>
-                                                <a href="/messageData/goSearch?title=诉讼" target="_blank" title="">诉讼</a>
-                                                <a href="/messageData/goSearch?title=纠纷" target="_blank" title="" class="duoyu">纠纷</a>
                                                 <div class="clear"> </div>
                                             </span>
                                         </div>
