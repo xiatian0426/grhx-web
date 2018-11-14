@@ -84,13 +84,13 @@
 						<div class="flicking_con">
 							<a class="a01" href="http://www.ynsslaw.com/Default.aspx" target="_blank">1</a>
 							<a class="a01" href="http://www.topsky.com.cn/topskyNew/index.aspx" target="_blank">2</a>
-							<a class="a03" href="http://www.gemdale-pm.com/Default.aspx" target="_blank">3</a>
+							<a class="a03" href="http://www.lawforever.com/Default.aspx" target="_blank">3</a>
 							<a href="http://www.whlaw.cn/" target="_blank">4</a>
 							<a href="http://www.security.sh.cn/" target="_blank">5</a>
 						</div>
 						<div class="main_image">
 							<ul>
-								<li><a href="http://www.gemdale-pm.com/Default.aspx" target="_blank"><span class="img_3"></span></a></li>
+								<li><a href="http://www.lawforever.com/Default.aspx" target="_blank"><span class="img_3"></span></a></li>
 								<li><a href="http://www.whlaw.cn/" target="_blank"><span class="img_4"></span></a></li>
 								<li><a href="http://www.snfchina.com" target="_blank"><span class="img_1"></span></a></li>
 								<li><a href="http://www.topsky.com.cn/topskyNew/index.aspx" target="_blank"><span class="img_2"></span></a></li>
