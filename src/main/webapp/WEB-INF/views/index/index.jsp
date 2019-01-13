@@ -92,7 +92,7 @@
 							<ul>
 								<li><a href="http://www.lawforever.com/Default.aspx" target="_blank"><span class="img_3"></span></a></li>
 								<li><a href="http://www.whlaw.cn/" target="_blank"><span class="img_4"></span></a></li>
-								<li><a href="http://www.snfchina.com" target="_blank"><span class="img_1"></span></a></li>
+								<li><a href="http://www.guidelawyer.com/index.aspx" target="_blank"><span class="img_1"></span></a></li>
 								<li><a href="http://www.topsky.com.cn/topskyNew/index.aspx" target="_blank"><span class="img_2"></span></a></li>
 								<li><a href="http://www.ynsslaw.com/Default.aspx" target="_blank"><span class="img_5"></span></a></li>
 							</ul>
