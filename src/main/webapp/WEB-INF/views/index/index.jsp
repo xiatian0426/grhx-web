@@ -289,21 +289,21 @@
                         </li>
                         <li class="active">
                             <a href="#" target="_blank" class="header closed opened" style="font-size: 18px;font-weight: bold;">
-                                <em class="">&nbsp;</em>医疗项目服务中心
+                                <em class="">&nbsp;</em>知识产权项目中心
                             </a>
                             <ul style="display: block; height: 100px;">
                                 <li style="display: block;">
                                     <div class="tubiaoHH">
                                         <div class="fl_liet">
                                             <span class="dddd">
-                                                <a href="/messageData/goSearch?title=体检软件" target="_blank" title="">体检软件</a>
-                                                <a href="/messageData/goSearch?title=体检系统" target="_blank" title="" class="duoyu">体检系统</a>
-                                                <a href="/messageData/goSearch?title=体检管理" target="_blank" title="">体检管理</a>
-                                                <a href="/messageData/goSearch?title=体检信息化" target="_blank" title="" class="duoyu">体检信息化</a>
-                                                <a href="/messageData/goSearch?title=HIS" target="_blank" title="">HIS</a>
-                                                <a href="/messageData/goSearch?title=体检管理平台" target="_blank" title="" class="duoyu">体检管理平台</a>
-                                                <a href="/messageData/goSearch?title=LIS" target="_blank" title="">LIS</a>
-                                                <a href="/messageData/goSearch?title=健康管理系统" target="_blank" title="" class="duoyu">健康管理系统</a>
+                                                <a href="/messageData/goSearch?title=知识产权" target="_blank" title="">知识产权</a>
+                                                <a href="/messageData/goSearch?title=商标" target="_blank" title="" class="duoyu">商标</a>
+                                                <a href="/messageData/goSearch?title=专利" target="_blank" title="">专利</a>
+                                                <a href="/messageData/goSearch?title=版权" target="_blank" title="" class="duoyu">版权</a>
+                                                <a href="/messageData/goSearch?title=诉讼" target="_blank" title="">诉讼</a>
+                                                <a href="/messageData/goSearch?title=境外业务" target="_blank" title="" class="duoyu">境外业务</a>
+                                                <%--<a href="/messageData/goSearch?title=LIS" target="_blank" title="">LIS</a>--%>
+                                                <%--<a href="/messageData/goSearch?title=健康管理系统" target="_blank" title="" class="duoyu">健康管理系统</a>--%>
 <!--                                                 <a href="/messageData/goSearch?title=安防" target="_blank" title="">安防</a> -->
 <!--                                                 <a href="/messageData/goSearch?title=弱电" target="_blank" title="" class="duoyu">弱电</a> -->
                                                 <div class="clear"> </div>
