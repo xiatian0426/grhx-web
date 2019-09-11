@@ -38,7 +38,12 @@
   		<span class="tit">${messageData.title }</span>
   		<div class="sjdd"><font>${messageData.provincename }</font>&nbsp;&nbsp;&nbsp;<font>${messageData.messagename }</font>&nbsp;&nbsp;&nbsp;<font>${messageData.dateString }</font></div>
   		<div class="nrr">
-  			${messageData.content }
+            <c:if test="${messageData.content==null ||  messageData.content ==''}">
+                <font color="red">此信息为历史信息，您无权查看，如有问题可致电您的客服专员！</font>
+            </c:if>
+            <c:if test="${messageData.content!=null &&  messageData.content !=''}">
+                ${messageData.content}
+            </c:if>
   		</div>
   	</div>
 </div>
