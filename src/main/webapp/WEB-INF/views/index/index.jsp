@@ -54,7 +54,7 @@
 <jsp:include  page="../def/top.jsp"/>
 
 <div id="middle">
-	<a href="http://fypac.com/" target="_blank"><img src="${imageRoot }/hengfu1.png" width="100%" height="80px;"/></a>
+	<a href="#" target="_blank"><img src="${imageRoot }/hengfu1.png" width="100%" height="80px;"/></a>
 </div>
 <div class="content">
 	<div id="middle">
