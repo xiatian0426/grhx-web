@@ -227,7 +227,7 @@
         </div>
         <!--首页第一栏结尾-->
         <div id="middle">
-        <a href="http://www.rqxghg.com/cn/index.asp" target="_blank"><img src="${imageRoot }/hengfu2.png" width="100%" height="80px;"/></a>
+        <a href="http://www.64123456.com/" target="_blank"><img src="${imageRoot }/hengfu2.png" width="100%" height="80px;"/></a>
         </div>
         <!--招标专区-->
         <div class="dierlan">
