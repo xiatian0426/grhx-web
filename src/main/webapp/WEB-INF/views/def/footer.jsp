@@ -30,9 +30,10 @@
         </ul>
     </div>
     <div class="submenu" style="position: relative;">
-        <ul style="display: block;width: 313px;margin: 0 auto;position: relative;">
+        <ul style="display: block;width: 500px;margin: 0 auto;position: relative;">
             <li>
-               	客服热线：028-81711663
+               	客服热线：028-81711663&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://beian.miit.gov.cn/" target="_blank" style="font-size:15px;">蜀ICP备18020965号-2</a>
             </li>
         </ul>
     </div>
